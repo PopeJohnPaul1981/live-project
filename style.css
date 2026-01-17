@@ -1,0 +1,124 @@
+   .nav-item ul {
+  display:flex; 
+  gap:16px; 
+  list-style:none; 
+  padding:0; 
+  margin:0;
+}
+.nav-item a {
+  display:block; 
+  padding:12px 20px; 
+  border-radius:999px; 
+  text-decoration:none; 
+  color:#0f172a; 
+  font-weight:600;
+}
+.nav-item a:hover, .nav-item a.active {
+  background:#cee7af; 
+  color:#fff;
+}
+   
+   .testimonial img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .footer-section {
+            background-color: #0f0f10;
+            color:white;
+        }
+        .footer-section a {
+            color: white;
+        }
+        .contact-section {
+            background-color: #000;
+            color: white;
+        }
+        .contact-header {
+            background-color:black;
+            color: white;
+        }
+
+         .wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  .wrap-image {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 0 20px 10px 0;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    object-fit: cover;
+  }
+ .jp {
+      display: flex;
+      align-items: center; /* vertically align image and text */
+      gap: 20px;           /* space between image and text */
+      max-width: 1200px;
+      margin: 10px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    .jp img {
+      width: 350px;
+      height:500;
+      border-radius: 8px;
+      float: left;
+    }
+
+    .text {
+      flex: 1;
+    }
+
+    .text h2 {
+      margin-top: 0;
+    }
+     
+  .wordart {
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Arial Black', Impact, sans-serif;
+    letter-spacing: 4px;
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff9900,
+      #ffee00,
+      #33cc33,
+      #00ccff,
+      #6633ff,
+      #ff33cc
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+      3px 3px 0 #000,
+      6px 6px 10px rgba(0,0,0,0.6);
+  }
+
+  .wordart2 {
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Arial Black', Impact, sans-serif;
+    letter-spacing: 4px;
+    background: linear-gradient(
+      45deg,
+      #1e00ff,
+      #210be3,
+      #f4f5f4,
+      #f7f8f7,
+      #240cd8,
+      #6633ff,
+      #121011
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+      3px 3px 0 #000,
+      6px 6px 10px rgba(0,0,0,0.6);
+  }
